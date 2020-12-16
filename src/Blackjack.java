@@ -151,7 +151,7 @@ public class Blackjack {
                     return null;
                 } else if(playerHand == 21) {
                     do{
-                        System.out.print("PLAYER: You must stand, at 21. ");
+                        System.out.print("PLAYER: You must stand, at 21. Type S to confirm. ");
                         decision = input.nextLine().trim().toUpperCase();
                     } while(!decision.equals("S"));
                 } else {
